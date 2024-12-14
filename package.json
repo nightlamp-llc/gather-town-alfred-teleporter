@@ -6,13 +6,13 @@
     "gather-town",
     "alfred"
   ],
-  "homepage": "https://github.com/nightlamp-llc/gather-town-alfred#readme",
+  "homepage": "https://github.com/nightlamp-llc/gather-town-alfred-teleporter#readme",
   "bugs": {
-    "url": "https://github.com/nightlamp-llc/gather-town-alfred/issues"
+    "url": "https://github.com/nightlamp-llc/gather-town-alfred-teleporter/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nightlamp-llc/gather-town-alfred.git"
+    "url": "git+https://github.com/nightlamp-llc/gather-town-alfred-teleporter.git"
   },
   "license": "MIT",
   "author": "NightLamp LLC",
