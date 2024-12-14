@@ -1,0 +1,42 @@
+{
+  "name": "gather-town-alfred-teleporter",
+  "version": "1.0.0",
+  "description": "gather-town-alfred-teleporter",
+  "keywords": [
+    "gather-town",
+    "alfred"
+  ],
+  "homepage": "https://github.com/nightlamp-llc/gather-town-alfred#readme",
+  "bugs": {
+    "url": "https://github.com/nightlamp-llc/gather-town-alfred/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nightlamp-llc/gather-town-alfred.git"
+  },
+  "license": "MIT",
+  "author": "NightLamp LLC",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "npx @biomejs/biome check --write --unsafe ./src",
+    "lint:pkg": "npx sort-package-json",
+    "quick": "ts-node ./src/index.ts",
+    "save": "npm run start save",
+    "setup": "npm i --omit=dev && npm run build && npm start setup",
+    "start": "node ./dist/index.js",
+    "teleport": "npm run start teleport",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@gathertown/gather-game-client": "^43.0.1",
+    "dotenv": "^16.4.7",
+    "isomorphic-ws": "^5.0.0",
+    "sanitize-filename": "^1.6.3",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "ts-node": "^10.9.2"
+  }
+}
