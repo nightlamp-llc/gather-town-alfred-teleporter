@@ -75,15 +75,17 @@ const featureTeleport = async () => {
     return;
   }
 
+  await getPlayers();
+
   if (process.argv[3].split(',').length === 3) {
     const [mapId, x, y] = process.argv[3].split(',');
+    console.log(`Teleport to map ID: ${mapId}, x: ${x}, y: ${y}`);
     gather.teleport(mapId, Number(x), Number(y));
     console.log('Teleport completed');
     gather.disconnect();
     return;
   }
 
-  await getPlayers();
   const targetPlayer = gather.getPlayer(playerIdOrMapIdXY);
 
   if (!targetPlayer) {
