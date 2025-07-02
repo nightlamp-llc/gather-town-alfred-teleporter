@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@gathertown/gather-game-client": "^43.0.1",
-    "dotenv": "^16.5.0",
+    "dotenv": "^17.0.1",
     "isomorphic-ws": "^5.0.0",
     "sanitize-filename": "^1.6.3",
     "typescript": "^5.8.3"
