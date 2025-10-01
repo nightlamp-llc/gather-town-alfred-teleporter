@@ -33,7 +33,7 @@
     "dotenv": "^17.2.3",
     "isomorphic-ws": "^5.0.0",
     "sanitize-filename": "^1.6.3",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
