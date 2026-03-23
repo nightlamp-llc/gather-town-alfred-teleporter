@@ -32,7 +32,7 @@
     "@gathertown/gather-game-client": "^43.0.1",
     "dotenv": "^17.3.1",
     "isomorphic-ws": "^5.0.0",
-    "sanitize-filename": "^1.6.3",
+    "sanitize-filename": "^1.6.4",
     "typescript": "^5.9.2"
   },
   "devDependencies": {
